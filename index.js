@@ -11,7 +11,9 @@ o.prototype.use = c(function (fn) {
 });
 
 o.prototype.set = c(function (key, value) {
-  this.obj[key] = value;
+  this.obj[key] = value instanceof o
+    ? value.get()
+    : value;
 });
 
 o.prototype.get = function (key) {
