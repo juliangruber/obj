@@ -1,21 +1,30 @@
 {
-  "name" : "obj",
-  "description" : "Object chaining tools",
-  "version" : "0.0.0",
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/juliangruber/obj.git"
+  "name": "obj",
+  "description": "Object chaining tools",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/obj.git"
   },
   "homepage": "https://github.com/juliangruber/obj",
-  "main" : "index.js",
-  "scripts" : {
-    "test" : "tape test/*.js"
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
   },
-  "dependencies" : {},
-  "devDependencies" : {
-    "tape" : "*"
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "*"
   },
-  "keywords": ["obj","o","object","chaining","chain","tool","tools","functional"],
+  "keywords": [
+    "obj",
+    "o",
+    "object",
+    "chaining",
+    "chain",
+    "tool",
+    "tools",
+    "functional"
+  ],
   "author": {
     "name": "Julian Gruber",
     "email": "mail@juliangruber.com",
