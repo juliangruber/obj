@@ -54,7 +54,7 @@ o.prototype.each = c(function (fn) {
 
 o.prototype.clone = function () {
   return this
-    .tmp({})
+    .tmp()
     .parEach(function (k, v) { this.set(k, v) });
 };
 
