@@ -1,4 +1,3 @@
-
 # obj
 
 Object chaining tools.
@@ -9,6 +8,18 @@ WIP, things will change.
 
 ```js
 var o = require('obj');
+
+// instead of this:
+var coords = clone(position.coords);
+coords.timestamp = position.timestamp;
+fn(null, coords);
+
+// you can do this:
+fn(null, o(position.coords)
+           .clone()
+           .set('timestamp', position.timestamp)
+           .get());
+// ..which might be more code but is way easier to read
 
 o({ foo: 'bar' })
   .clone()
