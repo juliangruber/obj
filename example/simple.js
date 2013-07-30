@@ -12,3 +12,4 @@ var obj = o({ foo: 'bar' })
 
 console.log(obj);
 
+console.log(o({ foo: 'bar' }).mv('foo', 'bar').get());

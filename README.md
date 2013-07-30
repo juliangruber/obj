@@ -45,6 +45,7 @@ o.prototype.clone = function () {
 ### o#parEach(fn)
 ### o#each(fn)
 ### o#clone()
+### o#mv(from, to)
 
 ## Installation
 
