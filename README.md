@@ -28,10 +28,23 @@ Here is the `clone` implementation:
 ```js
 o.prototype.clone = function () {
   return this
-    .tmp({})
+    .tmp()
     .parEach(function (k, v) { this.set(k, v) });
 };
 ```
+
+## API
+
+### o(obj)
+### o#use(fn)
+### o#set(key, value)
+### o#get(key)
+### o#sub(key)
+### o#tmp()
+### o#out()
+### o#parEach(fn)
+### o#each(fn)
+### o#clone()
 
 ## Installation
 
