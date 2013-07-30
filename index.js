@@ -58,6 +58,11 @@ o.prototype.clone = function () {
     .parEach(function (k, v) { this.set(k, v) });
 };
 
+o.prototype.mv = c(function (a, b) {
+  this.obj[b] = this.obj[a];
+  delete this.obj[a];
+});
+
 function c (fn) {
   return function () {
     fn.apply(this, arguments);
