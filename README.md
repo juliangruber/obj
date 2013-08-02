@@ -50,6 +50,7 @@ o.prototype.clone = function () {
 ### o#use(fn)
 ### o#set(key, value)
 ### o#get(key)
+### o#del(key)
 ### o#sub(key)
 ### o#tmp()
 ### o#out()
