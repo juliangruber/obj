@@ -36,6 +36,10 @@ o.prototype.out = function () {
   return this.par;
 };
 
+o.prototype.del = c(function (key) {
+  delete this.obj[key];
+});
+
 o.prototype.keys = function () {
   return Object.keys(this.obj);
 };
