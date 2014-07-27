@@ -4,6 +4,8 @@ Object chaining tools.
 
 WIP, things will change.
 
+[![downloads](https://img.shields.io/npm/dm/obj.svg)](https://www.npmjs.org/package/obj)
+
 ## Usage
 
 ```js
